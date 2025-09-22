@@ -1,1 +1,0 @@
-// src\Components\InfoSeries\index.jsx
