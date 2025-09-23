@@ -1,7 +1,7 @@
 // src\pages\Servicos\index.jsx
 
 import './style.css'
-import hero from '../../assets/qrcode.png'; 
+import qrcodeImg from '../../assets/qrcode.png'; 
 
 function Servicos() {
     return (
@@ -10,7 +10,7 @@ function Servicos() {
             <p>Comodidade e segurança na palma da mão</p>
 
             <div className='qrcode'>
-                <img src={hero} alt="qrcode" />
+                <img src={qrcodeImg} alt="qrcode" />
                 <h3>Contamos com a tecnologia de qrcode para facilitar o seu dia-a-dia dando mais segurança e rapidez nas suas entregas. A tecnologia de Qrcode já faz parte do nosso dia-a-dia e entegrada ao serviço de entregas tudo fica mais fácil.</h3>
             </div>
 
