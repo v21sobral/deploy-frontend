@@ -19,7 +19,7 @@
   color: #b0b0b0;
 }
 
-.qrcode {
+.qrcodez {
   display: flex;
   justify-content: center; /* alinha horizontalmente ao centro */
   align-items: center; /* alinha verticalmente */
@@ -27,12 +27,12 @@
   margin: 2rem 0;
 }
 
-.qrcode img {
-  width: auto; /* ajuste conforme necessário */
+.qrcodez img {
+  width: 120px; /* ajuste conforme necessário */
   height: auto;
 }
 
-.qrcode h3 {
+.qrcodez h3 {
   font-size: 1rem;
   line-height: 1.4;
   max-width: 400px; /* evita que o texto fique muito longo */
