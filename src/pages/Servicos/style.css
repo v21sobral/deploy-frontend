@@ -21,7 +21,7 @@
 
 .qrcode {
   display: flex;
-  justify-content: center; /* alinha horizontalmente */
+  justify-content: center; /* alinha horizontalmente ao centro */
   align-items: center; /* alinha verticalmente */
   gap: 1rem; /* espaço entre imagem e texto */
   margin: 2rem 0;
@@ -36,6 +36,7 @@
   font-size: 1rem;
   line-height: 1.4;
   max-width: 400px; /* evita que o texto fique muito longo */
+  text-align: left; /* alinha o texto à esquerda */
 }
 
 .grid {
