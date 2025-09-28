@@ -2,6 +2,7 @@
 
 import './style.css'
 import hero from '../../assets/ResidentSecurity.svg'; // usando a imagem logo disponível
+import motocagifsemloop from '../../assets/motocagifsemloop.gif'; // usando a imagem logo disponível
 
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
                         <a href="/fale-conosco" className='btn btn'>Fale conosco</a>
                     </div>
                 </div>
-                <img src={hero} alt="Equipe de contabilidade" />
+                <img src={motocagifsemloop} alt="Equipe de contabilidade" />
             </section>
 
             <section className='features'>
