@@ -1,7 +1,7 @@
 // src\pages\Home\index.jsx
 
 import './style.css'
-import hero from '../../assets/ResidentSecurity.svg'; // usando a imagem logo disponível
+import ResidentSecurity from '../../assets/ResidentSecurity.png'; // usando a imagem logo disponível
 import motocagifsemloop from '../../assets/motocagifsemloop.gif'; // usando a imagem logo disponível
 
 
@@ -42,7 +42,7 @@ function Home() {
 
             <section className="socialProof">
                 <div className='socialProof__image'>
-                    <img src={hero} alt="Nosso escritório" />
+                    <img src={ResidentSecurity} alt="Nosso escritório" />
                 </div>
                 <div className='socialProof__text'>
                     <h2>Mais de 500.000.000 clientes satisfeitos</h2>
